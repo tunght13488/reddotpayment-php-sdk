@@ -1,11 +1,19 @@
 {
-    "name": "tunght13488/reddotpayment-php-sdk",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ha The Tung",
-            "email": "tunght13488@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "tunght13488/reddotpayment-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ha The Tung",
+      "email": "tunght13488@gmail.com"
+    }
+  ],
+  "require": {
+    "respect/validation": "^1.1",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Reddot\\": "src"
+    }
+  }
 }
