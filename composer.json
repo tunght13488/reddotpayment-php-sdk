@@ -1,0 +1,11 @@
+{
+    "name": "tunght13488/reddotpayment-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ha The Tung",
+            "email": "tunght13488@gmail.com"
+        }
+    ],
+    "require": {}
+}
